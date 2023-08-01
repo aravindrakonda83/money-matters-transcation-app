@@ -1,0 +1,60 @@
+.update-transaction-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.update-transaction-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.update-transaction-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+}
+
+.update-transaction-form div {
+  margin-bottom: 15px;
+}
+
+.update-transaction-form label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.update-transaction-form input,
+.update-transaction-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-transaction-form button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-transaction-form button[type="submit"] {
+  background-color: #28a745;
+  margin-right: 10px;
+}
+
+.update-transaction-form button[type="button"] {
+  background-color: #dc3545;
+}

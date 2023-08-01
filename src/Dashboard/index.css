@@ -1,0 +1,47 @@
+.dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.dashboard h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.dashboard h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.dashboard p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.dashboard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard li {
+  margin: 5px 0;
+  color: #555;
+}
+
+.dashboard li span {
+  color: #007bff;
+}
+
+.loading-message {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}

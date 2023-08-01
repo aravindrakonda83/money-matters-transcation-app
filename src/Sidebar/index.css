@@ -1,0 +1,45 @@
+div {
+  width: 250px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* Navigation list styles */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List item styles */
+li {
+  margin-bottom: 10px;
+}
+
+/* Anchor styles */
+a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Anchor hover styles */
+a:hover {
+  background-color: #f8f8f8;
+}
+
+/* Active anchor styles */
+a.active {
+  background-color: #007bff;
+  color: #fff;
+}
